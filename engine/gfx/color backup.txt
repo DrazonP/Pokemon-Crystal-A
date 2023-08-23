@@ -1,0 +1,28 @@
+CheckShininess:
+; Check if a mon is shiny by DVs at bc.
+; Return carry if shiny.
+
+    ld l, c
+    ld h, b
+
+; Attack
+    ld a, [hl]
+    cp 10 << 4
+    jr c, .not_shiny
+
+; Defense
+    ld a, [hli]
+    and $f
+    cp  SHINY_DEF_VAL
+    jr nz, .not_shiny
+
+; Speed
+    ld a, [hl]
+    cp 10 << 4
+    jr c, .not_shiny
+
+; Special
+    ld a, [hl]
+    and $f
+    cp  SHINY_SPC_VAL
+    jr nz, .not_shiny
