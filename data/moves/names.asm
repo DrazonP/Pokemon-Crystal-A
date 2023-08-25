@@ -229,7 +229,7 @@ MoveNames::
 	li "Encore"
 	li "Pursuit"
 	li "Rapid Spin"
-	li "Seet Scent"
+	li "Sweet Scent"
 	li "Iron Tail"
 	li "Metal Claw"
 	li "Vital Throw"
