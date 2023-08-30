@@ -29,7 +29,7 @@ BulbasaurEvosAttacks:
 	db 20, RAZOR_LEAF
 	db 25, SWEET_SCENT
 	db 30, GROWTH
-    db 35, GIGA_DRAIN
+	db 35, GIGA_DRAIN
 	db 42, SYNTHESIS
 	db 48, SOLARBEAM
 	db 0 ; no more level-up moves
@@ -66,8 +66,8 @@ VenusaurEvosAttacks:
 	db 15, SLEEP_POWDER
 	db 22, RAZOR_LEAF
 	db 29, SWEET_SCENT
-  db 39, GROWTH
-  db 46, GIGA_DRAIN
+	db 39, GROWTH
+	db 46, GIGA_DRAIN
 	db 55, SYNTHESIS
 	db 65, SOLARBEAM
 	db 0 ; no more level-up moves
@@ -78,7 +78,7 @@ CharmanderEvosAttacks:
 	db 1, SCRATCH
 	db 1, GROWL
 	db 7, EMBER
-	
+	db 13, METAL_CLAW
 	db 19, SMOKESCREEN
 	db 25, RAGE
 	db 31, SCARY_FACE
